@@ -6,7 +6,7 @@ A responsive and stylish travel services website built using React and Tailwind 
 
 🔗 **Live Demo:** https://travel-services-website.vercel.app/
 
-## ✨ Features
+## Features
 
 - Responsive design for desktop and mobile
 - Search bar with debounce effect
@@ -15,14 +15,14 @@ A responsive and stylish travel services website built using React and Tailwind 
 - Styled footer with gradient background and quick links
 - Modular components and clean file structure
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React
 - Tailwind CSS
 - Framer Motion
 - React Router DOM
 
-## 📁 Folder Structure
+## Folder Structure
 
 - `public/`
     - `images`
