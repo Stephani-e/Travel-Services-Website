@@ -21,7 +21,6 @@ body {
   z-index: 999;
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(to right, #00bcd4, #ff4081);
-  border-image-slice: 1;
 }
 
 .navbar-container {
