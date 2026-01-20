@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './Products.css';
-import productsData from '../../Data/ProductsData';
+import '../styling/Products.css';
+import productsData from '../Data/ProductsData.jsx';
 
 export default function Products() {
   const [buyingId, setBuyingId] = useState(null);

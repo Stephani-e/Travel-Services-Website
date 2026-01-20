@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import '../../App.css';
-import './Services.css'; 
-import ServiceCard from '../ServiceCards';
-import { servicesData } from '../../Data/ServicesData';
+import '../App.css';
+import '../styling/Services.css';
+import ServiceCard from '../components/ServiceCards.jsx';
+import { servicesData } from '../Data/ServicesData.jsx';
 import { motion as Motion } from 'framer-motion';
 
 export default function Services() {

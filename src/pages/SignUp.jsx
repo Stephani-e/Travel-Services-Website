@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../../App.css';
-import './SignUp.css';
+import '../App.css';
+import '../styling/SignUp.css';
 import Confetti from 'react-confetti';
 import { useWindowSize } from '@react-hook/window-size';
 

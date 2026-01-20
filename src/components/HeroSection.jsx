@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import '../App.css'
 import { Button } from "./Button";
-import './HeroSection.css'
+import './styles/HeroSection.css'
 import { motion as Motion } from 'framer-motion'
 
 function HeroSection() {

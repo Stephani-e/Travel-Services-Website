@@ -1,8 +1,7 @@
-// src/components/ServiceCard.jsx
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { motion as Motion } from 'framer-motion';
-import './ServiceCards.css';
+import './styles/ServiceCards.css';
 
 const ServiceCard = ({ icon, title, description }) => {
   return (
