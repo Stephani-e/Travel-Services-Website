@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  border-image: linear-gradient(to right, #111827, var(--primary)) 1;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ body {
   top: 0;
   z-index: 999;
   border-bottom: 2px solid transparent;
-  border-image: linear-gradient(to right, #00bcd4, #ff4081);
+  background-color: #242424;
 }
 
 .navbar-container {
@@ -109,6 +109,7 @@ body {
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
+  border-bottom: 3px solid var(--primary);
 }
 
 .fa-bars {
@@ -117,6 +118,11 @@ body {
 
 .nav-links-mobile {
   display: none;
+}
+
+.navbar .btn--outline {
+  border-color: #fff;
+  color: #fff;
 }
 
 .menu-icon {

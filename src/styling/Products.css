@@ -23,12 +23,12 @@
 
 .product-card {
   background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 12px 20px rgba(0,0,0,0.12);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);
 }
 
 .product-card:hover {
@@ -66,12 +66,12 @@
 .product-price {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #0a74da;
+  color: var(--primary);
   margin-bottom: 1.25rem;
 }
 
 .btn-primary {
-  background-color: #0a74da;
+  background-color: var(--primary);
   color: #fff;
   padding: 10px 18px;
   border: none;
@@ -82,11 +82,10 @@
 }
 
 .btn-primary:hover {
-  background-color: #095bb5;
+  background-color: var(--primary-dark);
 }
 
 .btn:disabled {
-  background-color: #7aa7d9;
-  cursor: not-allowed;
-  opacity: 0.7;
+  background-color: rgba(250, 0, 63, 0.4);
 }
+

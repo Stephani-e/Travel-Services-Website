@@ -1,8 +1,10 @@
 .custom-footer {
-  background: linear-gradient( 145deg, 
-    rgb(28, 27, 27) 0%, 
-    rgb(28, 27, 27) 70%, 
-    #43cea2 100%);
+  background: radial-gradient(
+          circle at top left,
+          var(--primary) 0,
+          #111827 45%,
+          #020617 100%
+  );
   color: white;
   padding-top: 3rem;
   padding-bottom: 2rem;

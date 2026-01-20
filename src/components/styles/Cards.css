@@ -1,6 +1,6 @@
 .cards {
-  padding: 4rem;
-  background: #fff;
+  padding: 4rem 1.5rem;
+  background: #f9fafb;
 }
 
 h1 {
@@ -34,18 +34,18 @@ h1 {
 }
 
 .cards__item__link {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
   display: block;
   flex-flow: column;
   width: 100%;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.22);
   text-decoration: none;
   list-style-type: none;
 }
 
 .cards__item__link:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 18px 35px rgba(15, 23, 42, 0.35);
   transition: box-shadow 0.3s ease;
 }
 
@@ -71,7 +71,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #0f7ae5;
+  background-color: var(--primary);
   box-sizing: border-box;
   transition: background-color 0.3s ease;
 }
