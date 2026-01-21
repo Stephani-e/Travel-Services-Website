@@ -67,4 +67,4 @@ A responsive and stylish travel services website built using React and Tailwind 
    npm install
 3. Start the development server
    ```bash
-   npm start
+   npm run dev
